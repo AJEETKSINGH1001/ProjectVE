@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="New project">
+
+	<listeners>
+		<listener class-name="com.projectVE.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="New project Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.projectVE.testCases.TC_LoginTest_001"/>
+			<class name="com.projectVE.testCases.TC_LoginDDT_002"/>
+			<class name="com.projectVE.testCases.TC_AddCustomerTest_003"/>
+			<class name="com.projectVE.testCases.EditCustomer"/>
+		
+		</classes>
+
+	</test>
+
+</suite>

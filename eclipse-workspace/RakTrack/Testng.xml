@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="RAK TRACK project">
+
+	<listeners>
+		<listener class-name="com.projectRAK.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="RAK TRACK Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.projectRAK.testCases.TC_LoginTest_001"/>
+			<!-- <class name="com.projectRAK.testCases.Contests_rak"/> -->
+			<!-- <class name="com.projectRAK.testCases.TC_LoginDDT_002"/> -->
+			<!-- <class name="com.projectRAK.testCases.Loginrak"/> -->
+			<!-- <class name="com.projectRAK.testCases.TC_AddCustomerTest_003"/>
+			<class name="com.projectRAK.testCases.EditCustomer"/>  --> 
+		</classes>
+
+	</test>
+
+</suite>
