@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="browser" value="chrome"/>
   <test name="Default test(failed)">
     <classes>
+      <class name="com.projectRAK.testCases.EditCustomer">
+        <methods>
+          <include name="login_and_editcustomer"/>
+        </methods>
+      </class> <!-- com.projectRAK.testCases.EditCustomer -->
+      <class name="projectraktrack.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- projectraktrack.Login -->
+      <class name="com.projectRAK.testCases.AddLead">
+        <methods>
+          <include name="AddLead_to_rak"/>
+        </methods>
+      </class> <!-- com.projectRAK.testCases.AddLead -->
+      <class name="com.projectRAK.testCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="addNewCustomer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.projectRAK.testCases.TC_AddCustomerTest_003 -->
+      <class name="com.projectRAK.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.projectRAK.testCases.TC_LoginTest_001 -->
+      <class name="com.projectRAK.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="loginDDT"/>
+        </methods>
+      </class> <!-- com.projectRAK.testCases.TC_LoginDDT_002 -->
       <class name="com.projectRAK.testCases.Loginrak">
         <methods>
           <include name="login"/>
         </methods>
       </class> <!-- com.projectRAK.testCases.Loginrak -->
+      <class name="projectraktrack.Loginrak">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- projectraktrack.Loginrak -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

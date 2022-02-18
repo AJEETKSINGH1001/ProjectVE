@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="RAK TRACK project" duration-ms="68951" started-at="2022-02-17T15:09:55Z" finished-at="2022-02-17T15:11:03Z">
+  <suite name="RAK TRACK project" duration-ms="59749" started-at="2022-02-18T05:06:45Z" finished-at="2022-02-18T05:07:45Z">
     <groups>
     </groups>
-    <test name="RAK TRACK Test" duration-ms="68951" started-at="2022-02-17T15:09:55Z" finished-at="2022-02-17T15:11:03Z">
+    <test name="RAK TRACK Test" duration-ms="59749" started-at="2022-02-18T05:06:45Z" finished-at="2022-02-18T05:07:45Z">
       <class name="com.projectRAK.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.projectRAK.testCases.TC_LoginTest_001@2133c8f8]" name="setup" is-config="true" duration-ms="64436" started-at="2022-02-17T20:39:56Z" finished-at="2022-02-17T20:41:00Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.projectRAK.testCases.TC_LoginTest_001@2133c8f8]" name="setup" is-config="true" duration-ms="39043" started-at="2022-02-18T10:36:46Z" finished-at="2022-02-18T10:37:25Z">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.projectRAK.testCases.TC_LoginTest_001@2133c8f8]" name="loginTest" duration-ms="3376" started-at="2022-02-17T20:41:00Z" finished-at="2022-02-17T20:41:03Z">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.projectRAK.testCases.TC_LoginTest_001@2133c8f8]" name="loginTest" duration-ms="19343" started-at="2022-02-18T10:37:25Z" finished-at="2022-02-18T10:37:44Z">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
   (Session info: chrome=98.0.4758.102): User or Password is not valid
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'AJEET', ip: '192.168.1.100', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_281'
+System info: host: 'AJEET', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f8283cca780b429306f1e60dccb7e889]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce591ca6b343428b0443538189972dfb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
   (Session info: chrome=98.0.4758.102): User or Password is not valid
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'AJEET', ip: '192.168.1.100', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_281'
+System info: host: 'AJEET', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_281'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f8283cca780b429306f1e60dccb7e889
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce591ca6b343428b0443538189972dfb
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -75,7 +75,7 @@ Session ID: f8283cca780b429306f1e60dccb7e889
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.projectRAK.testCases.TC_LoginTest_001@2133c8f8]" name="tearDown" is-config="true" duration-ms="59" started-at="2022-02-17T20:41:03Z" finished-at="2022-02-17T20:41:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.projectRAK.testCases.TC_LoginTest_001@2133c8f8]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-02-18T10:37:45Z" finished-at="2022-02-18T10:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

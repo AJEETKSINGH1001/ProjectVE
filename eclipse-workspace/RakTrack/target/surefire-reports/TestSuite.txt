@@ -1,61 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 164.498 s <<< FAILURE! - in TestSuite
-com.projectRAK.testCases.TC_LoginDDT_002.loginDDT[mngr164225, jahetAp](1)  Time elapsed: 13.488 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.projectRAK.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:31)
-
-com.projectRAK.testCases.TC_LoginDDT_002.loginDDT[mngr83460, qAbUzyj](2)  Time elapsed: 16.636 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.projectRAK.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:31)
-
-com.projectRAK.testCases.TC_LoginDDT_002.loginDDT[mngr137319, bAdYvyb](3)  Time elapsed: 18.69 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.projectRAK.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:31)
-
-com.projectRAK.testCases.TC_LoginDDT_002.loginDDT[mngr164225, jahetAp](4)  Time elapsed: 17.033 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.projectRAK.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:31)
-
-com.projectRAK.testCases.TC_LoginDDT_002.loginDDT[mngr112909, tytUreg](5)  Time elapsed: 15.637 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.projectRAK.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:31)
-
-com.projectRAK.testCases.TC_LoginDDT_002.loginDDT[mngr379751, nEsEpUg](6)  Time elapsed: 29.583 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.projectRAK.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:31)
-
-com.projectRAK.testCases.Loginrak.login  Time elapsed: 6.586 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-session not created: This version of ChromeDriver only supports Chrome version 96
-Current browser version is 98.0.4758.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 75.264 s <<< FAILURE! - in TestSuite
+com.projectRAK.testCases.TC_LoginTest_001.loginTest  Time elapsed: 7.794 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=98.0.4758.102): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'AJEET', ip: '192.168.1.100', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_281'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x01346903+2517251]
-	Ordinal0 [0x012DF8E1+2095329]
-	Ordinal0 [0x011E2848+1058888]
-	Ordinal0 [0x01200B9D+1182621]
-	Ordinal0 [0x011FCA60+1165920]
-	Ordinal0 [0x011FA2CF+1155791]
-	Ordinal0 [0x0122AAAF+1354415]
-	Ordinal0 [0x0122A71A+1353498]
-	Ordinal0 [0x0122639B+1336219]
-	Ordinal0 [0x012027A7+1189799]
-	Ordinal0 [0x01203609+1193481]
-	GetHandleVerifier [0x014D5904+1577972]
-	GetHandleVerifier [0x01580B97+2279047]
-	GetHandleVerifier [0x013D6D09+534521]
-	GetHandleVerifier [0x013D5DB9+530601]
-	Ordinal0 [0x012E4FF9+2117625]
-	Ordinal0 [0x012E98A8+2136232]
-	Ordinal0 [0x012E99E2+2136546]
-	Ordinal0 [0x012F3541+2176321]
-	BaseThreadInitThunk [0x77176A14+36]
-	RtlInitializeExceptionChain [0x77CDA9EF+143]
-	RtlInitializeExceptionChain [0x77CDA9BA+90]
-
-	at com.projectRAK.testCases.Loginrak.login(Loginrak.java:17)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ab76d57cbe0a98804b8bac7fe31acf5
+	at com.projectRAK.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:25)
 
